@@ -14,7 +14,7 @@
     <a class="site-title" href="{{ get_url(path="/") }}">{{ config.title }}</a>
     <nav>
       {% for item in config.extra.menu %}
-        <a href="{{ get_url(path=item.url) }}">{{ item.name }}</a>
+        <a href="{{ get_url(path=item.url) }}" class="{% if current_path == item.url %}active{% endif %}">{{ item.name }}</a>
       {% endfor %}
     </nav>
   </header>
