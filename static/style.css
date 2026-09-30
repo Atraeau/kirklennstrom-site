@@ -88,6 +88,17 @@ article time {
 
 audio { width: 100%; margin: 0.75rem 0; }
 
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
 .site-footer {
   color: var(--muted);
   font-size: 0.85rem;
