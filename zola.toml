@@ -13,8 +13,10 @@ build_search_index = false
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 
+[link_checker]
+skip_prefixes = ["https://www.linkedin.com"]
+
 [extra]
-tagline = "Founder notes, and audio work on the side."
 
 [[extra.menu]]
 name = "Home"

@@ -3,6 +3,8 @@ title = "Kirk Lennstrom"
 template = "index.html"
 +++
 
-Hi, I'm Kirk — a software developer and founder, currently learning sound engineering on the side. This site is where I write about building things and share some of the audio work I've been putting together.
+Hi, I'm Kirk. This is a personal site — a place to publish things I make, whatever form that takes.
 
-Look around: recent posts are under [Blog](/posts/), and a few audio samples live under [Work](/work/).
+I play in [The Stones Society](https://thestonessociety.com/) and run front-of-house sound at our gigs, which is what's pulled me into audio engineering more seriously. You can also find me on [LinkedIn](https://www.linkedin.com/in/kirk-lennstrom/).
+
+[Blog](/posts/) and [Work](/work/) will fill in as there's something worth sharing.

@@ -109,11 +109,13 @@ a { color: var(--accent); text-underline-offset: 0.15em; }
   margin-bottom: 0.5rem;
 }
 
-.hero .tagline {
-  color: var(--muted);
-  font-size: 1.15rem;
-  margin-top: 0;
-  margin-bottom: 2rem;
+.avatar {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-soft);
 }
 
 .hero p { font-size: 1.05rem; }
