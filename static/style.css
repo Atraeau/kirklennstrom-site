@@ -1,0 +1,95 @@
+:root {
+  color-scheme: light dark;
+  --fg: #1a1a1a;
+  --bg: #fdfdfc;
+  --muted: #666;
+  --accent: #2c5cc5;
+  --max-width: 680px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #e8e8e6;
+    --bg: #16171a;
+    --muted: #999;
+    --accent: #7aa2ff;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+.site-header, main, .site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--fg) 12%, transparent);
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 1.25rem;
+}
+
+nav a:hover { color: var(--accent); }
+
+a { color: var(--accent); }
+
+.hero .tagline { color: var(--muted); }
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--fg) 8%, transparent);
+}
+
+.post-list time {
+  color: var(--muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+article time {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+audio { width: 100%; margin: 0.75rem 0; }
+
+.site-footer {
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid color-mix(in srgb, var(--fg) 12%, transparent);
+}

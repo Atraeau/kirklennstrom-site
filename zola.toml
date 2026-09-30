@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://kirklennstrom.com"
+title = "Kirk Lennstrom"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+tagline = "Founder notes, and audio work on the side."
+
+[[extra.menu]]
+name = "Home"
+url = "/"
+
+[[extra.menu]]
+name = "Blog"
+url = "/posts/"
+
+[[extra.menu]]
+name = "Work"
+url = "/work/"
+
+[[extra.menu]]
+name = "About"
+url = "/about/"

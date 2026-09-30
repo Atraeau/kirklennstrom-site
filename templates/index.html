@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="hero">
+    <h1>{{ config.title }}</h1>
+    <p class="tagline">{{ config.extra.tagline }}</p>
+    {{ section.content | safe }}
+  </section>
+{% endblock content %}
